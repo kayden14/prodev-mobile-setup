@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function IndexScreen() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.headerText}>Entry Screen - Awesome</Text>
+      <Text style={styles.entryText}>Entry Screen - Awesome</Text>
 
       <View>
         <Text style={styles.largeText}>
@@ -25,10 +25,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 20,
   },
-  headerText: {
-    fontSize: 20,
+  entryText: {
+    fontSize: 24,
     fontWeight: "bold",
     marginBottom: 20,
+    textAlign: "center",
   },
   largeText: {
     fontSize: 30,

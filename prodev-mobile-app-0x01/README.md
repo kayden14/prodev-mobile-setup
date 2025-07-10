@@ -1,16 +1,21 @@
-# Task 2: Implementing Mobile Components in React Native
+## Task 2: Implementing Mobile Components
 
-### ✅ What I Did
+### What I Did
 
-- Created `app/index.tsx`
-- Used React Native components: `<View>` and `<Text>`
-- Applied styling using `StyleSheet`
+- Created `app/index.tsx` with React Native components.
+- Added 3 `<Text>` blocks with unique styles.
+- Used `StyleSheet.create()` to style components.
 
-### 📱 Screenshot
+### Screenshot
 
 ![App Screenshot](./screenshot.png)
 
-### 💡 Learning Outcome
+### Key Concepts Learned
 
-- Practiced component creation and basic layout
-- Learned to structure and style React Native screens
+- Difference between `<View>` and `<Text>`
+- How to use `StyleSheet` for layout
+- How to test app with Expo Go
+
+### Challenges
+
+- No major issues encountered
